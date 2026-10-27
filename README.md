@@ -4,8 +4,7 @@
 
 **Author:** Arjun Singh `<botarjunbot479@gmail.com>`
 
-Add people + expenses → see who owes whom.
+Hosted on **GitHub only** (no server URL).
 
-```bash
-python -m http.server 8770
-```
+- **Live:** https://botarjunbot479-art.github.io/bill-split/
+- **Repo:** https://github.com/botarjunbot479-art/bill-split
