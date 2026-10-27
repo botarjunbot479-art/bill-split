@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Bill Split — Arjun</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Fraunces:wght@600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="bg"></div>
+<header><strong>Bill Split</strong><span>by Arjun Singh</span></header>
+<main>
+  <h1>Fair shares.<br/>No spreadsheet fights.</h1>
+  <p class="sub">Add roommates and expenses. We settle who pays whom.</p>
+  <section>
+    <h2>People</h2>
+    <form id="personForm"><input name="name" placeholder="Name" required/><button>Add</button></form>
+    <ul id="people"></ul>
+  </section>
+  <section>
+    <h2>Expense</h2>
+    <form id="expForm">
+      <input name="desc" placeholder="What" required/>
+      <input name="amount" type="number" min="1" step="1" placeholder="Amount" required/>
+      <select name="payer" id="payer" required></select>
+      <button>Add expense</button>
+    </form>
+    <ul id="expenses"></ul>
+  </section>
+  <section>
+    <h2>Settlement</h2>
+    <ul id="settle"></ul>
+  </section>
+</main>
+<script src="app.js"></script>
+</body></html>
